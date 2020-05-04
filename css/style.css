@@ -1,0 +1,784 @@
+/* =========================== general css ==============================*/
+.body{
+	font-family: 'Montserrat', sans-serif;
+}
+.link
+{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	color:white;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:14px;
+	padding:10px;
+}
+
+.bg{
+	background-color:#fa9562;
+}
+
+/* =========================== navbar css ==============================*/
+.navbar-text h3{
+	font-family: 'Pacifico', cursive;
+	color:white;
+}
+
+/* =========================== carousel css ==============================*/
+.image{
+	padding: 40px;
+	border-right:40px #fa9562 solid;
+	border-left:40px #fa9562 solid;
+	border-bottom:80px #fa9562 solid;
+}
+
+.carousel-caption
+{
+	bottom:100px;
+}
+.carousel-caption h5
+{
+	font-family: 'Pacifico', cursive;
+	font-weight: bolder;
+	font-size:30px;
+}
+.carousel-caption p
+{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bolder;
+	font-size:20px;
+}
+
+/* =========================== welcome css ==============================*/
+.welcome{
+	border-right:40px #fa9562 solid;
+	border-left:40px #fa9562 solid;
+	border-bottom:80px #fa9562 solid;
+}
+.welcome h3{
+	font-family: 'Pacifico', cursive;
+	font-size:30px;
+	text-align: center;
+	font-weight: bolder;
+	padding-top: 80px;
+	padding-bottom: 40px;
+}
+.welcome p{
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	text-align: center;
+	padding-bottom: 80px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/* =========================== about css ==============================*/
+.about{
+	border-right:40px #fa9562 solid;
+	border-left:40px #fa9562 solid;
+	padding-bottom: 160px;
+}
+.about h3{
+	font-family: 'Pacifico', cursive;
+	font-size:30px;
+	text-align: center;
+	font-weight: bolder;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.about p{
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 160px;
+}
+
+
+/* =========================== product css ==============================*/
+
+.product{
+	border-right:40px #fa9562 solid;
+	border-left:40px #fa9562 solid;
+	border-bottom:80px #fa9562 solid;
+	padding-bottom: 80px;
+}
+.product h3{
+	font-family: 'Pacifico', cursive;
+	font-size:30px;
+	text-align: center;
+	font-weight: bolder;
+	padding-top: 80px;
+	padding-bottom: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.product p{
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.product-card{
+	border:1px white solid;
+	margin:20px;
+}
+.product-card img{
+	padding: 20px;
+	border-radius:5px;
+}
+.product-card h4{
+	font-family: 'Pacifico', cursive;
+	font-size:30px;
+	text-align: center;
+}
+.product-card p{
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	text-align: center;
+}
+.product-card a{
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	text-align: center;
+	padding:10px;
+	border:1px black solid;
+	border-radius: 5px;
+	text-decoration:none;
+}
+.product-card a:hover{
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	text-align: center;
+	font-weight: bolder;
+	padding:10px;
+	border:2px black solid;
+	border-radius: 8px;
+	text-decoration:none;
+}
+
+.product-btn{
+	font-family: 'Pacifico', cursive;
+	font-size:30px;
+	text-align: center;
+	font-weight: bolder;
+	padding:10px 50px;
+	margin-top: 60px;
+	margin-bottom:10px;
+	border:2px black solid;
+	border-radius: 5px;
+	color:black;
+	text-decoration:none;
+
+}
+.product-btn:hover{
+	font-family: 'Pacifico', cursive;
+	font-size:30px;
+	text-align: center;
+	font-weight: bolder;
+	padding:10px 50px;
+	margin-top: 60px;
+	margin-bottom:10px;
+	border:5px black solid;
+	border-radius: 8px;
+	color:black;
+	text-decoration:none;
+
+}
+/* =========================== baker css ==============================*/
+
+.baker{
+	border-right:40px #fa9562 solid;
+	border-left:40px #fa9562 solid;
+	border-bottom:80px #fa9562 solid;
+	padding-bottom: 80px;
+}
+.baker h3{
+	font-family: 'Pacifico', cursive;
+	font-size:30px;
+	text-align: center;
+	font-weight: bolder;
+	padding-top: 80px;
+	padding-bottom: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.baker h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.baker p{
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.baker-card{
+	border:1px white solid;
+	margin:20px;
+}
+.baker-card img{
+	padding: 20px;
+	border-radius:5px;
+}
+.baker-card h4{
+	font-family: 'Pacifico', cursive;
+	font-size:30px;
+	text-align: center;
+}
+.baker-card p{
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	text-align: center;
+}
+.baker-card a{
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	text-align: center;
+	padding:10px;
+	border:1px black solid;
+	border-radius: 5px;
+	text-decoration:none;
+}
+.baker-card a:hover{
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	text-align: center;
+	padding:10px;
+	border:4px black solid;
+	border-radius: 8px;
+	text-decoration:none;
+}
+
+/* =========================== service css ==============================*/
+
+.service{
+	border-right:40px #fa9562 solid;
+	border-left:40px #fa9562 solid;
+	border-bottom:80px #fa9562 solid;
+	padding-bottom: 80px;
+}
+.service h3{
+	font-family: 'Pacifico', cursive;
+	font-size:30px;
+	text-align: center;
+	font-weight: bolder;
+	padding-top: 80px;
+	padding-bottom: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.service p{
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.service-row a{
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	text-align: center;
+	margin:10px;
+	padding:10px;
+	border:1px black solid;
+	border-radius: 5px;
+	text-decoration:none;
+}
+.service-row a:hover{
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	font-weight: bolder;
+	text-align: center;
+	margin:10px;
+	padding:10px;
+	border:2px black solid;
+	border-radius: 8px;
+	text-decoration:none;
+}
+
+.service-row{
+	border:1px black solid;
+	border-radius: 5px;
+	margin: 40px 5px;
+}
+.service-row img{
+	padding: 20px;
+	border-radius:100px;
+	width:100%;
+	height:250px;
+}
+
+.service-row h4{
+	padding: 20px;
+	font-family: 'Pacifico', cursive;
+	font-size:30px;
+	text-align: center;
+}
+
+.service-row p{
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.service-row ul li{
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+/* =========================== finalproduct css ==============================*/
+
+.finalproduct{
+	border-right:40px #fa9562 solid;
+	border-left:40px #fa9562 solid;
+	border-bottom:80px #fa9562 solid;
+	padding-bottom: 80px;
+}
+.finalproduct h3{
+	font-family: 'Pacifico', cursive;
+	font-size:30px;
+	text-align: center;
+	font-weight: bolder;
+	padding-top: 80px;
+	padding-bottom: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.finalproduct p{
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.finalproduct-card img{
+	width:100%;
+	height: 250px;
+}
+
+.finalproduct-card{
+	border-top:1px black solid;
+	border-bottom:1px black solid;
+	border-right:1px white solid;
+	border-left:1px white solid;
+	margin:20px;
+}
+.finalproduct-card img{
+	padding: 20px;
+	border-radius:5px;
+}
+.finalproduct-card h4{
+	font-family: 'Pacifico', cursive;
+	font-size:30px;
+	text-align: center;
+}
+.finalproduct-card p{
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	text-align: center;
+}
+.finalproduct-card a{
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	text-align: center;
+	padding:10px;
+	border:1px black solid;
+	border-radius: 5px;
+	text-decoration:none;
+}
+.finalproduct-card a:hover{
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	text-align: center;
+	font-weight: bolder;
+	padding:10px;
+	border:2px black solid;
+	border-radius: 8px;
+	text-decoration:none;
+}
+
+/* =========================== detail css ==============================*/
+
+.detail{
+	border-right:40px #fa9562 solid;
+	border-left:40px #fa9562 solid;
+	border-bottom:80px #fa9562 solid;
+	padding-bottom: 80px;
+}
+.detail h3{
+	font-family: 'Pacifico', cursive;
+	font-size:30px;
+	text-align: center;
+	font-weight: bolder;
+	padding-top: 80px;
+	padding-bottom: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.detail p{
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.detail img{
+	width:100%;
+	height: 250px;
+	padding-bottom: 40px;
+}
+
+.flavour h2{
+	font-family: 'Pacifico', cursive;
+	font-size:30px;
+	font-weight: bolder;
+	padding-top: 80px;
+}
+
+.flavour ul li{
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+}
+
+.size h2{
+	font-family: 'Pacifico', cursive;
+	font-size:30px;
+	font-weight: bolder;
+	padding-top: 80px;
+}
+
+.size ul li{
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+}
+
+.order-btn{
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	text-align: center;
+	padding:10px 20px;
+	border:1px black solid;
+	border-radius: 5px;
+	text-decoration:none;
+}
+.order-btn:hover{
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	text-align: center;
+	font-weight: bolder;
+	padding:10px 20px;
+	border:2px black solid;
+	border-radius: 8px;
+	text-decoration:none;
+}
+
+.detail-card img{
+	width:100%;
+	height: 250px;
+}
+
+.detail-card{
+	border-top:1px black solid;
+	border-bottom:1px black solid;
+	border-right:1px white solid;
+	border-left:1px white solid;
+	margin:20px;
+}
+.detail-card img{
+	padding: 20px;
+	border-radius:5px;
+}
+.detail-card h4{
+	font-family: 'Pacifico', cursive;
+	font-size:30px;
+	text-align: center;
+}
+.detail-card p{
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	text-align: center;
+}
+
+/* =========================== order css ==============================*/
+.order{
+	border-right:40px #fa9562 solid;
+	border-left:40px #fa9562 solid;
+	border-bottom:80px #fa9562 solid;
+}
+.order h3{
+	font-family: 'Pacifico', cursive;
+	font-size:30px;
+	text-align: center;
+	font-weight: bolder;
+	margin:80px 10px 20px;
+	padding: 10px;
+
+}
+
+.order p{
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: center;
+}
+.order img{
+	width:100%;
+	height: 400px;
+	padding:20px;
+	margin:80px 10px;
+}
+
+.order h2{
+	font-family: 'Pacifico', cursive;
+	font-size:20px;
+	font-weight: bolder;
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: center;
+}
+.quantity-btn{
+	margin:10px;
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	background-color: white;
+	text-align: center;
+	padding:10px 20px;
+	border:1px black solid;
+	border-radius: 5px !important;
+	text-decoration:none;
+}
+.btn-active{
+	margin:10px;
+	font-family: 'Montserrat', sans-serif;
+	background-color: white;
+	font-size: 15px;
+	font-weight: bolder;
+	text-align: center;
+	color:#43ba61;
+	padding:10px 20px;
+	border:2px #43ba61 solid;
+	border-radius: 8px;
+	text-decoration:none;
+}
+
+.buy-btn{
+	font-family: 'Montserrat', sans-serif;
+	font-size:25px;
+	background-color:#43ba61;
+	color:white;
+	text-align: center;
+	margin: 40px 10px;
+	padding:5px 40px;
+	border:1px #43ba61 solid;
+	border-radius: 5px !important;
+	text-decoration:none;
+}
+.order-details a{
+	color: #495057;
+}
+
+.tab-pane p{
+	padding: 30px 20px;
+}
+/* =========================== buy css ==============================*/
+
+.buy{
+	border-right:40px #fa9562 solid;
+	border-left:40px #fa9562 solid;
+	border-bottom:80px #fa9562 solid;
+}
+.buy h3{
+	font-family: 'Pacifico', cursive;
+	font-size:30px;
+	text-align: center;
+	font-weight: bolder;
+	margin:80px 10px 20px;
+	padding: 10px;
+
+}
+
+.buy p{
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: center;
+}
+
+/* =========================== contact css ==============================*/
+.contact{
+	border-right:40px #fa9562 solid;
+	border-left:40px #fa9562 solid;
+	border-bottom:80px #fa9562 solid;
+}
+.contact h3{
+	font-family: 'Pacifico', cursive;
+	font-size:30px;
+	text-align: center;
+	font-weight: bolder;
+	padding-top: 80px;
+	padding-bottom: 40px;
+}
+.contact h2{
+	font-family: 'Pacifico', cursive;
+	font-size:15px;
+	font-weight: bolder;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.contact p{
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	text-align: center;
+	padding-bottom: 80px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.contact span{
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	padding-left: 10px;
+	padding-right: 20px;
+}
+.contact .form-control
+{
+    display:block;
+    width:100%;
+    height: 50px;
+    padding:6px 12px;
+    font-size:14px;
+    line-height:21px;
+    color:#555;
+    background-color: transparent;
+    border:1px solid #aeaeae;
+    border-radius:3px;
+    margin-bottom:15px;
+    opacity:0.8;
+    outline:0px !important;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+
+}
+
+#message{
+    height:117px;
+    resize:none;
+}
+
+.submit-btn:active,
+.submit-btn:focus,
+.submit-btn:visited,
+.submit-btn
+{
+    font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	text-align: center;
+	padding:10px;
+	border:1px black solid;
+	border-radius: 5px;
+	background-color: white;
+	text-decoration:none;
+	padding-left:50px;
+	padding-right:50px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+}
+.submit-btn:hover
+{
+    color:black;
+    border-color:#129cf3;
+}
+.social-icons{
+    padding-top: 50px;
+    padding-bottom:70px;
+}
+.social-icons ul{
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.social-icons ul li{
+    list-style: none;
+    display: inline;
+    padding-left:10px;
+}
+.social-icons ul li a{
+    text-decoration:  none; 
+    display:inline;
+    text-align:center;
+    border:1px solid #fa9562;
+    border-radius:3px;
+    line-height:49px;
+    color:#fa9562;
+    padding:15px 20px;
+    width:50px;
+    height:50px;
+    font-size: 20px;
+}
+.social-icons ul li a:hover{
+    background-color:#fa9562;
+    color:white;
+    border:1px solid #fa9562;
+}
+
+
+/* =========================== footer css ==============================*/
+
+.footer{
+	font-family: 'Montserrat', sans-serif;
+	background-color: #fa9562;
+	text-transform: uppercase;
+	color:white;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:14px;
+	padding:10px;
+}
+
+.scroll-top a{
+	font-size:20px;
+	color:white;
+	text-decoration: none;
+	border:1px white solid;
+	border-radius: 5px;
+	padding:10px 20px;
+}
+.scroll-top a:hover{
+	font-size:20px;
+	font-weight: bolder;
+	color:white;
+	text-decoration: none;
+	border:2px white solid;
+	border-radius: 8px;
+	padding:10px 20px;
+}
+
+
+/*
+#fab562
+#fa9562
+#df6e60
+*/

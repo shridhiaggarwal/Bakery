@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cakes</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+  <!-- navbar -->
+  <nav id="home" class="navbar navbar-expand-lg navbar-dark bg">
+    
+    <!--logo -->
+    <a href="#home" class="navbar-brand">
+      <img src="images/logo.jpeg" width="50" /> 
+    </a>
+
+    <!-- text -->
+    <span class="navbar-text">
+      <h3>Bakery!</h3>
+    </span>
+
+    <!-- toggle button -->
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#menu" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation"> 
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- links -->
+    <div class="collapse navbar-collapse justify-content-end" id="menu">
+      <ul class="navbar-nav">
+         <li class="navbar-item link">
+            <a class="nav-link" href="index.html">home</a>
+         </li>
+         <li class="navbar-item link">
+            <a class="nav-link" href="about.html">about</a>
+         </li>
+         <li class="navbar-item link">
+            <a class="nav-link" href="service.html">services</a>
+         </li>
+         <li class="navbar-item link">
+            <a class="nav-link" href="finalproduct.html">products</a>
+         </li>
+         <li class="navbar-item link">
+            <a class="nav-link" href="baker.html">bakers</a>
+         </li>
+         <li class="navbar-item link">
+            <a class="nav-link" href="contact.html">contact</a>
+         </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- details message -->
+  <section class="detail">
+    <h3 id="name"></h3>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+        </div>
+        <div  class="col-md-4">
+          <img src ="" id="image">
+        </div>
+        <div  class="col-md-4">
+        </div>
+      </div>
+    </div>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus ultricies nibh, vitae sodales purus. Aenean volutpat ullamcorper cursus. Duis tristique sit amet augue ac vestibulum.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus ultricies nibh, vitae sodales purus. Aenean volutpat ullamcorper cursus. Duis tristique sit amet augue ac vestibulum.
+    </p>
+
+    <!-- details -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+            <div class="flavour">
+              <h2>Flavours Available:</h2>
+              <ul>
+                <li>Mixed Fruit</li>
+                <li>Chocolate</li>
+                <li>Orange</li>
+                <li>Butter Scotch</li>
+                <li>Black Forest</li>
+                <li>Pineapple</li>
+                <li>Raspberry</li>
+                <li>Strawberry</li>
+                <li>Honey</li>
+                <li>Pear</li>
+                <li>Peach</li>
+              </ul>
+            </div>
+        </div>
+        <div class="col-md-6">
+          <div class="size">
+              <h2>Cake Sizes:</h2>
+              <ul>
+                <li>15cm/6inch cake - Approx 600g to 800g </li>
+                <li>20cm/8 inch cake - Approx 1kg to 1.3kg</li>
+                <li>24cm/9.5 inch cake - Approx 1.5kg to 2kg</li>
+                <li>28cm/11 inch cake - Approx  2kg to 2.3kg</li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- other products to buy -->
+    <div class="card-deck">
+      <div class="container">
+        <!-- row 1 -->
+        <div>
+          <h3>Available choices:</h3>
+        </div>
+        <!-- row 2 -->
+        <div class="row">
+
+          <div class="col-md-4">
+            <div class="card detail-card">
+              <img class="card-img-top" src="" id="i1">
+              <div class="card-body">
+                <h4 id="n1"></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <center>
+                  <button class="btn order-btn stretched-link" onclick="myOrder(1)">Order</button>
+                </center>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card detail-card">
+              <img class="card-img-top" src="" id="i2">
+              <div class="card-body">
+                <h4 id="n2"></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <center>
+                  <button class="btn order-btn stretched-link" onclick="myOrder(2)">Order</button>
+                </center>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card detail-card">
+              <img class="card-img-top" src="" id="i3">
+              <div class="card-body">
+                <h4 id="n3"></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <center>
+                  <button class="btn order-btn stretched-link" onclick="myOrder(3)">Order</button>
+                </center>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- row 3 -->
+        <div class="row">
+
+          <div class="col-md-4">
+            <div class="card detail-card">
+              <img class="card-img-top" src="" id="i4">
+              <div class="card-body">
+                <h4 id="n4"></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <center>
+                  <button class="btn order-btn stretched-link" onclick="myOrder(4)">Order</button>
+                </center>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card detail-card">
+              <img class="card-img-top" src="" id="i5">
+              <div class="card-body">
+                <h4 id="n5"></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <center>
+                  <button class="btn order-btn stretched-link" onclick="myOrder(5)">Order</button>
+                </center>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card detail-card">
+              <img class="card-img-top" src="" id="i6">
+              <div class="card-body">
+                <h4 id="n6"></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <center>
+                  <button class="btn order-btn stretched-link" onclick="myOrder(6)">Order</button>
+                </center>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div> <!-- container end -->
+    </div><!-- card deck end -->
+
+  </section>
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="container">
+                <div class="row">
+                    <div class="col-md-11">
+                        <div id="copyright">
+                            <p>Copyright &copy; Bakery!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-1">
+                        <div class="scroll-top">
+                            <a  href="#home"><i class="fa fa-angle-up"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  </footer>
+
+  <!-- javascript part -->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/detail.js"></script>
+    <script>
+      function myOrder(item){
+        var t = item;
+        var string = "?"+ np +"&" +  t;
+        window.location.href = "order.html" + string ;
+      }
+    </script>
+
+</body>
+</html>

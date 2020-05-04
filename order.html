@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cakes</title>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+  <!-- navbar -->
+  <nav id="home" class="navbar navbar-expand-lg navbar-dark bg">
+    
+    <!--logo -->
+    <a href="#home" class="navbar-brand">
+      <img src="images/logo.jpeg" width="50" /> 
+    </a>
+
+    <!-- text -->
+    <span class="navbar-text">
+      <h3>Bakery!</h3>
+    </span>
+
+    <!-- toggle button -->
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#menu" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation"> 
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- links -->
+    <div class="collapse navbar-collapse justify-content-end" id="menu">
+      <ul class="navbar-nav">
+         <li class="navbar-item link">
+            <a class="nav-link" href="index.html">home</a>
+         </li>
+         <li class="navbar-item link">
+            <a class="nav-link" href="about.html">about</a>
+         </li>
+         <li class="navbar-item link">
+            <a class="nav-link" href="service.html">services</a>
+         </li>
+         <li class="navbar-item link">
+            <a class="nav-link" href="finalproduct.html">products</a>
+         </li>
+         <li class="navbar-item link">
+            <a class="nav-link" href="baker.html">bakers</a>
+         </li>
+         <li class="navbar-item link">
+            <a class="nav-link" href="contact.html">contact</a>
+         </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- details message -->
+  <section class="order">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src ="" id="image" class="img-thumbnail">
+        </div>
+        <div  class="col-md-6">
+          <h3 id="name" class="text-center"></h3>
+          <p id="detail"></p>
+          <h2>Rs. <span id="rate">250</span></h2>
+          <center>
+            <div id="btndiv">
+              <button class="quantity-btn btn-active" id="b1" onclick="price(1)" >0.5Kg</button>
+              <button class="quantity-btn" id="b2" onclick="price(2)">1Kg</button>
+              <button class="quantity-btn" id="b3" onclick="price(3)">2Kg</button>
+              <button class=" quantity-btn" id="b4" onclick="price(4)" >4kg</button>
+            </div>
+          </center>
+          <center>
+            <button class="buy-btn" onclick="buy()">BUY NOW</button>
+          </center>
+        </div>
+      </div>
+    </div>
+
+    <div class="container order-details">
+      <!-- nav tabs  -->
+      <ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" data-toggle="tab" href="#descr">Description</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#depolicy">Delivery Policy</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#subpolicy">Substitution Policy</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#decharges">Delivery Charges</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#review">Reviews</a>
+        </li>
+      </ul>
+
+      <!-- tab content -->
+      <div class="tab-content">
+        <div id="descr" class="container tab-pane active">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus ultricies nibh, vitae sodales purus.</p>
+        </div>
+        <div id="depolicy" class="container tab-pane fade">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus ultricies nibh, vitae sodales purus.</p>
+        </div>
+        <div id="subpolicy" class="container tab-pane fade">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus ultricies nibh, vitae sodales purus.</p>
+        </div>
+        <div id="decharges" class="container tab-pane fade">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus ultricies nibh, vitae sodales purus.</p>
+        </div>
+        <div id="review" class="container tab-pane fade">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus ultricies nibh, vitae sodales purus.</p>
+        </div>
+      </div>
+
+    </div>
+    
+  </section>
+  
+  <!-- footer -->
+  <footer class="footer">
+    <div class="container">
+                <div class="row">
+                    <div class="col-md-11">
+                        <div id="copyright">
+                            <p>Copyright &copy; Bakery!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-1">
+                        <div class="scroll-top">
+                            <a  href="#home"><i class="fa fa-angle-up"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  </footer>
+  <!-- javascript part -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/order.js"></script>
+    <script>
+      var quant;
+      
+      var header = document.getElementById("btndiv");
+      var btns = header.getElementsByClassName("quantity-btn");
+      for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function() {
+        var current = document.getElementsByClassName("btn-active");
+        current[0].className = current[0].className.replace(" btn-active", "");
+        this.className += " btn-active";
+        });
+      }
+
+      function price(quantity)
+      {  quant = quantity;
+         document.getElementById("rate").innerHTML =  250 * quantity ; 
+      }
+
+      function buy(){ 
+        var buystr = "?"+ p +"&" + number+"&"+quant;
+        window.location.href = "buy.html" + buystr ;
+      }
+      
+    </script>
+
+</body>
+</html>
