@@ -163,7 +163,6 @@
 	font-family: 'Pacifico', cursive;
 	font-size:30px;
 	text-align: center;
-	font-weight: bolder;
 	padding:10px 50px;
 	margin-top: 60px;
 	margin-bottom:10px;
@@ -605,13 +604,11 @@
 	border-left:40px #fa9562 solid;
 	border-bottom:80px #fa9562 solid;
 }
-.buy h3{
-	font-family: 'Pacifico', cursive;
-	font-size:30px;
+.buy h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
 	text-align: center;
 	font-weight: bolder;
-	margin:80px 10px 20px;
-	padding: 10px;
 
 }
 
@@ -621,6 +618,92 @@
 	padding-left: 30px;
 	padding-right: 30px;
 	text-align: center;
+}
+
+.buy img{
+	width:100%;
+}
+
+.buy .table{
+	margin:40px 10px;
+}
+.table th{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+.buy-box{
+	border:1px black solid;
+	border-radius: 5px;
+	margin: 40px 20px;
+	padding:10px;
+}
+
+.buy-box p{
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: center;
+}
+.buy-box button{
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	background-color:#43ba61;
+	color:white;
+	text-align: center;
+	margin: 40px 10px;
+	padding:5px 40px;
+	border:1px #43ba61 solid;
+	border-radius: 5px !important;
+	text-decoration:none;	
+}
+
+
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	.buy table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	.buy thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	.buy th{ 
+		position: relative;
+		padding-bottom: 50%; 
+	}
+	.buy td { 
+		position: relative;
+		padding-left: 50%;
+		padding:30px; 
+	}
+	
+	.buy td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 100px; 
+		white-space: nowrap;
+	}
+	
+	/*
+	Label the data
+	*/
+	td:nth-of-type(1):before { content: "Description"; }
+	td:nth-of-type(2):before { content: "Name"; }
+	td:nth-of-type(3):before { content: "Price"; }
+	td:nth-of-type(4):before { content: "Quantity"; }
+	td:nth-of-type(5):before { content: "Total"; }
 }
 
 /* =========================== contact css ==============================*/
