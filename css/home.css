@@ -40,7 +40,7 @@ h4 {
   padding: 0px;
 }
 
-button {
+.commonButton {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   padding: 8px 24px;
@@ -51,14 +51,14 @@ button {
   margin-top: 2.5rem;
 }
 
-button:hover,
-button:active {
+.commonButton:hover,
+.commonButton:active {
   background-color: transparent;
   color: #da5162;
   outline: none;
 }
 
-button:focus {
+.commonButton:focus {
   outline: none;
 }
 
@@ -607,7 +607,7 @@ button:focus {
 
 .customOrder .customOrderImage img {
   width: 200px;
-  margin-left: 50px;
+  margin-right: 50px;
 }
 
 /* =========================== quote section css ==============================*/
@@ -680,4 +680,14 @@ button:focus {
 .footer .footerCopyRight {
   font-size: 14px;
   font-weight: bold;
+}
+
+
+/* ============================= media queries css =========================*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .footer{
+    padding: 20px;
+  }
 }
