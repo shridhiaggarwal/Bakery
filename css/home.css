@@ -17,13 +17,13 @@ body font
 #666666
 
 font sizes
-14px; - only nav and captions
-16px; - body
-20px; - small heading - bannerCarousel p
-28px - service box h6, quote box
-32px - 
-46px; large heading - made with love, services
-64px; extra large heading- bannerCarousel
+14px; 0.875rem - only nav and captions
+16px; 1rem - body default
+20px; 1.25rem - small heading - bannerCarousel p
+28px; 1.75rem - service box h6, quote box
+32px 2rem
+46px; 2.875rem - large heading - made with love, services
+64px; 4rem - extra large heading- bannerCarousel
 =======*/
 
 /* =========================== general css ==============================*/
@@ -72,6 +72,7 @@ h4 {
 
 .navbar-brand {
   margin-right: 8px;
+  padding: 0px;
 }
 
 .navbar-brand img {
@@ -91,7 +92,7 @@ h4 {
   text-decoration: none;
   padding: 10px 20px !important;
   font-weight: bolder;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 60px;
   letter-spacing: 0.5px;
   text-align: center;
@@ -108,8 +109,13 @@ h4 {
   color: #da5162;
 }
 
-.navbar-toggler {
-  border-color: lightgreen;
+.navbar-collapse {
+  background-color: #da5162;
+}
+
+.navToggleIcon {
+  color: white;
+  margin-right: 1rem;
 }
 
 /* =========================== bannerCarousel section css ==============================*/
@@ -150,45 +156,29 @@ h4 {
 .bannerCarousel .carousel-caption h3 {
   font-family: "Satisfy", cursive;
   font-weight: bolder;
-  font-size: 64px;
+  font-size: 4rem;
   margin-bottom: 1rem;
 }
 
 .bannerCarousel .carousel-caption p {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 .bannerCarousel .carousel-control-prev {
-  /* background-color: black; */
   height: 50px;
   width: 50px;
   margin-left: 50px;
   top: 50%;
-  /* border-radius: 50%;
-  opacity: 0.2; */
 }
 
-/* .bannerCarousel .carousel-control-prev:hover, .carousel-control-prev:active, .carousel-control-prev:focus {
-  background-color: black;
-  opacity: 0.2;
-} */
-
 .bannerCarousel .carousel-control-next {
-  /* background-color: black; */
   height: 50px;
   width: 50px;
   margin-right: 50px;
   top: 50%;
-  /* border-radius: 50%;
-  opacity: 0.2; */
 }
-
-/* .bannerCarousel .carousel-control-next:hover, .carousel-control-next:active, .carousel-control-next:focus {
-  background-color: black;
-  opacity: 0.2;
-} */
 
 /* =========================== offer of week section css ==============================*/
 .offerOfWeek {
@@ -216,7 +206,7 @@ h4 {
 
 .offerOfWeekText h4 {
   font-family: "Satisfy", "cursive";
-  font-size: 46px;
+  font-size: 2.875rem;
   font-weight: bolder;
   color: #da5162;
   margin-bottom: 1rem;
@@ -256,7 +246,7 @@ h4 {
 
 .madeWithLoveText h4 {
   font-family: "Satisfy", "cursive";
-  font-size: 46px;
+  font-size: 2.875rem;
   font-weight: bolder;
   color: #da5162;
   margin-bottom: 1rem;
@@ -267,9 +257,7 @@ h4 {
 }
 
 .madeWithLoveImage img {
-  font-family: "Montserrat", sans-serif;
   width: 300px;
-  border-radius: 8px;
   margin-right: 80px;
 }
 
@@ -282,7 +270,7 @@ h4 {
 .service h4 {
   text-align: center;
   font-family: "Satisfy", "cursive";
-  font-size: 46px;
+  font-size: 2.875rem;
   font-weight: bolder;
   color: #da5162;
   margin-bottom: 4rem;
@@ -301,7 +289,7 @@ h4 {
 
 .serviceBoxText h5 {
   font-family: "Paytone One", sans-serif;
-  font-size: 46px;
+  font-size: 2.875rem;
   margin-bottom: 1.5rem;
   color: #da5162;
   line-height: 52px;
@@ -309,7 +297,7 @@ h4 {
 
 .serviceBoxText h6 {
   font-family: "Satisfy", sans-serif;
-  font-size: 28px;
+  font-size: 1.75rem;
   margin-bottom: 1.5rem;
 }
 
@@ -331,7 +319,6 @@ h4 {
 }
 
 .serviceCard {
-  /* width: 300px; */
   height: 380px;
   background-color: #faf6f2;
   padding: 90px 25px 40px 25px;
@@ -377,7 +364,7 @@ h4 {
 
 .serviceCard .serviceCardText h4 {
   font-family: "Satisfy", "cursive";
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: bold;
   color: #da5162;
   margin-bottom: 1rem;
@@ -386,7 +373,6 @@ h4 {
 .owl-carousel .owl-nav {
   overflow: hidden;
   height: 0px;
-  margin-top: 0px;
 }
 
 .owl-theme .owl-dots .owl-dot span {
@@ -445,7 +431,7 @@ h4 {
 
 .quoteBox h4 {
   font-family: "Satisfy", "cursive";
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: bolder;
   color: #da5162;
 }
@@ -464,7 +450,7 @@ h4 {
 .menu h4 {
   text-align: center;
   font-family: "Satisfy", "cursive";
-  font-size: 46px;
+  font-size: 2.875rem;
   font-weight: bolder;
   color: #da5162;
   margin-bottom: 2rem;
@@ -527,7 +513,7 @@ h4 {
 
 .menuCard .menuCardText .menuNamePrice h6 {
   font-family: "Satisfy", "cursive";
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: bold;
   color: #da5162;
 }
@@ -537,16 +523,21 @@ h4 {
   font-weight: bold;
 }
 
-/* =========================== quote section css ==============================*/
+.menuCard .menuCardText .menuNameDesc {
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+/* =========================== complete menu section css ==============================*/
 .completeMenuBox {
   height: 360px;
   background-color: #fdf2d2;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-image: url("../images/backgrounds/background2.png");
-  background-repeat: no-repeat;
-  background-position: left; */
   padding: 20px 80px;
 }
 
@@ -556,7 +547,7 @@ h4 {
 
 .completeMenuBox .completeMenuText h4 {
   font-family: "Satisfy", "cursive";
-  font-size: 46px;
+  font-size: 2.875rem;
   font-weight: bolder;
   color: #da5162;
   margin-bottom: 1rem;
@@ -595,7 +586,7 @@ h4 {
 
 .customOrder .customOrderText h4 {
   font-family: "Satisfy", "cursive";
-  font-size: 46px;
+  font-size: 2.875rem;
   font-weight: bolder;
   color: #da5162;
   margin-bottom: 1rem;
@@ -610,21 +601,21 @@ h4 {
   margin-right: 50px;
 }
 
-/* =========================== quote section css ==============================*/
+/* =========================== footer section css ==============================*/
 .footer {
-  height: 360px;
   background-color: #fdf2d2;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  padding: 20px 80px;
+  padding: 60px 80px;
 }
 
 .footer .footerLogoText {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 3rem;
 }
 
 .footer .footerLogoText .footerLogo {
@@ -636,7 +627,6 @@ h4 {
 
 .footer .footerLogoText .footerLogo h3 {
   font-family: "Pacifico", cursive;
-  /* font-size: 46px; */
   font-weight: bolder;
   color: #da5162;
 }
@@ -653,7 +643,7 @@ h4 {
 }
 
 .footer .footerLogoText .footerText .footerField p {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: bold;
 }
 
@@ -666,7 +656,7 @@ h4 {
   padding: 8px;
   border: 2px solid #da5162;
   border-radius: 50%;
-  font-size: 20px;
+  font-size: 1.25rem;
   margin-right: 16px;
   transition: all 0.5s;
 }
@@ -678,16 +668,160 @@ h4 {
 }
 
 .footer .footerCopyRight {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: bold;
 }
 
-
 /* ============================= media queries css =========================*/
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  .footer{
+/* Extra small devices (phones, 1200px and down) */
+@media only screen and (max-width: 1200px) {
+  .bannerCarousel .carousel-control-prev {
+    margin-left: 12px;
+  }
+  .bannerCarousel .carousel-control-next {
+    margin-right: 12px;
+  }
+  .customOrder {
+    margin: 80px;
+  }
+}
+
+/* Extra small devices (phones, 992px and down) */
+@media only screen and (max-width: 992px) {
+  .navbar {
+    padding: 0rem;
+  }
+  .bannerCarousel .carousel-inner img {
+    height: 580px;
+  }
+  .bannerCarousel .carousel-caption h3 {
+    font-size: 2.875rem;
+  }
+  .offerOfWeek {
     padding: 20px;
+  }
+  .madeWithLove {
+    padding: 80px 20px;
+  }
+  .madeWithLoveImage img {
+    margin-right: 20px;
+  }
+  .service {
+    padding: 0px 20px 40px 20px;
+  }
+  .serviceBox {
+    margin-bottom: 40px;
+  }
+  .serviceBoxImage img {
+    margin-left: 20px;
+  }
+  .quoteBox {
+    padding: 20px;
+  }
+  .quoteBox img {
+    margin-right: 20px;
+  }
+  .menu {
+    padding: 80px 20px;
+  }
+  .menu .container-fluid {
+    padding: 0px;
+  }
+  .completeMenuBox {
+    padding: 20px;
+  }
+  .customOrder {
+    margin: 80px 20px;
+  }
+}
+
+/* Extra small devices (phones, 768px and down) */
+@media only screen and (max-width: 768px) {
+  .offerOfWeekImage {
+    display: none;
+  }
+  .madeWithLoveImage img {
+    width: 200px;
+  }
+  .serviceBoxImage {
+    display: none;
+  }
+  .quoteBoxImage img {
+    width: 200px;
+  }
+  .completeMenuImage img {
+    width: 200px;
+  }
+  .customOrderImage {
+    display: none;
+  }
+}
+
+/* Extra small devices (phones, 576px and down) */
+@media only screen and (max-width: 576px) {
+  .bannerCarousel .carousel-inner img {
+    height: 360px;
+  }
+  .bannerCarousel .carousel-caption {
+    top: unset;
+    text-align: center;
+  }
+  .bannerCarousel .carousel-caption h3 {
+    font-size: 2.875rem;
+  }
+  .bannerCarousel .carousel-caption p {
+    display: none;
+  }
+  .bannerCarousel .carousel-caption button {
+    display: none;
+  }
+  .bannerCarousel .carousel-control-prev {
+    display: none;
+  }
+  .bannerCarousel .carousel-control-next {
+    display: none;
+  }
+  .offerOfWeek .icecreamElement {
+    display: none;
+  }
+  .madeWithLoveImage {
+    display: none;
+  }
+  .serviceBoxText h5 {
+    font-size: 1.75rem;
+    line-height: initial;
+  }
+  .owl-carousel .owl-nav {
+    display: none;
+  }
+  .quoteBoxImage img {
+    display: none;
+  }
+  .menuCard {
+    padding: 12px;
+    flex-direction: column-reverse;
+  }
+  .menuCard .menuCardImage img {
+    margin-bottom: 16px;
+  }
+  .completeMenuImage {
+    display: none;
+  }
+  .footer {
+    padding: 20px;
+  }
+  .footer .footerLogoText {
+    flex-direction: column;
+  }
+  .footer .footerLogoText .footerLogo {
+    margin-right: 0px;
+    margin-bottom: 1rem;
+  }
+  .footer .footerLogoText .footerText .socialIcons {
+    text-align: center;
+  }
+  .footer .footerCopyRight {
+    text-align: center;
   }
 }

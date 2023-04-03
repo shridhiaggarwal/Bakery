@@ -29,9 +29,9 @@
     <!-- logo text -->
     <h3 class="navbar-text">Bakery!</h3>
     <!-- toggle button -->
-    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#menu"
+    <button class="navbar-toggler ml-auto navToggleIcon" type="button" data-toggle="collapse" data-target="#menu"
       aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <i class="fa fa-bars" aria-hidden="true"></i>
     </button>
     <!-- links -->
     <div class="collapse navbar-collapse justify-content-end" id="menu">
@@ -265,9 +265,7 @@
                   <h6>Chocolate Cake</h6>
                   <p><i class="fa fa-inr" aria-hidden="true"></i> 250</p>
                 </div>
-                <p>Experience pure chocolate bliss with our signature chocolate cake! Perfect for any occasion, it's
-                  sure
-                  to satisfy your sweet tooth and leave you craving for more.</p>
+                <p class="menuNameDesc">Rich, moist chocolate cake layers sandwiched with creamy chocolate frosting for the ultimate indulgence.</p>
               </div>
               <div class="menuCardImage">
                 <a target="_blank" href="images/menu/menu1.jpg">
@@ -283,9 +281,7 @@
                   <h6>Birthday Cake</h6>
                   <p><i class="fa fa-inr" aria-hidden="true"></i> 250</p>
                 </div>
-                <p>Experience pure chocolate bliss with our signature chocolate cake! Perfect for any occasion, it's
-                  sure
-                  to satisfy your sweet tooth and leave you craving for more.</p>
+                <p class="menuNameDesc">A mouthwatering dessert that's perfect for any occasion</p>
               </div>
               <div class="menuCardImage">
                 <a target="_blank" href="images/menu/menu2.jpg">
@@ -303,9 +299,7 @@
                   <h6>Penguin Cake</h6>
                   <p><i class="fa fa-inr" aria-hidden="true"></i> 250</p>
                 </div>
-                <p>Experience pure chocolate bliss with our signature chocolate cake! Perfect for any occasion, it's
-                  sure
-                  to satisfy your sweet tooth and leave you craving for more.</p>
+                <p class="menuNameDesc">Carefully crafted with attention to detail and a focus on flavor</p>
               </div>
               <div class="menuCardImage">
                 <a target="_blank" href="images/menu/menu3.jpg">
@@ -321,9 +315,7 @@
                   <h6>Vanilla Cake</h6>
                   <p><i class="fa fa-inr" aria-hidden="true"></i> 250</p>
                 </div>
-                <p>Experience pure chocolate bliss with our signature chocolate cake! Perfect for any occasion, it's
-                  sure
-                  to satisfy your sweet tooth and leave you craving for more.</p>
+                <p class="menuNameDesc">Light and fluffy vanilla cake made with real vanilla beans and topped with silky buttercream frosting in your choice of flavors.</p>
               </div>
               <div class="menuCardImage">
                 <a target="_blank" href="images/menu/menu4.jpg">
@@ -341,9 +333,7 @@
                   <h6>Butterfly Cake</h6>
                   <p><i class="fa fa-inr" aria-hidden="true"></i> 250</p>
                 </div>
-                <p>Experience pure chocolate bliss with our signature chocolate cake! Perfect for any occasion, it's
-                  sure
-                  to satisfy your sweet tooth and leave you craving for more.</p>
+                <p class="menuNameDesc">A simple yet elegant dessert, this cake features layers of buttery shortcake, sweet strawberries, and whipped cream.</p>
               </div>
               <div class="menuCardImage">
                 <a target="_blank" href="images/menu/menu5.jpg">
@@ -359,9 +349,7 @@
                   <h6>Fruit Cake</h6>
                   <p><i class="fa fa-inr" aria-hidden="true"></i> 250</p>
                 </div>
-                <p>Experience pure chocolate bliss with our signature chocolate cake! Perfect for any occasion, it's
-                  sure
-                  to satisfy your sweet tooth and leave you craving for more.</p>
+                <p class="menuNameDesc">Perfectly balanced, with just the right amount of sweetness</p>
               </div>
               <div class="menuCardImage">
                 <a target="_blank" href="images/menu/menu6.jpg">
@@ -456,7 +444,8 @@
       autoPlay: true,
       responsive: {
         1: { items: 1, },
-        991: { items: 3, },
+        768: { items: 2, },
+        992: { items: 3, },
       },
     });
   </script>
